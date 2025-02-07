@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="kyasu" fetch="https://github.com/kyasu" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/xiaomi/clover" name="android_device_xiaomi_clover" remote="kyasu" revision="lineage-22.1" />
+
+    <!-- Device - Common -->
+    <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="kyasu" revision="lineage-22.1" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="kyasu" revision="lineage-22.1" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/clover" name="android_vendor_xiaomi_clover" remote="kyasu" revision="lineage-22.1" />
+
+    <!-- Vendor - Common -->
+    <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="kyasu" revision="lineage-22.1" />
+
+</manifest>
